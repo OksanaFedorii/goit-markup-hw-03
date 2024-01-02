@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20; 
+    letter-spacing: 0.02em;  
+}
+
+p {
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/** --------------HEADER----------------- */
+
+.header-logo {
+    color: #4d5ae5; 
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.header-span {
+    color:#2E2F42;
+}
+
+
+.header-menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404BBF;
+}
+
+.header-menu-link:active {
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color:  #404BBF;
+    font-style: normal;
+}
+
+/** --------------MAIN----------------- */
+
+.hero {
+    background:#2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; 
+    letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    background:  #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background:  #404BBF;
+}
+
+.our-team {
+    background: #F4F4FD;
+}
+
+.our-team-card {
+    background: #FFF;
+}
+
+.our-portfolio-card {
+    background: #FFF;
+}
+
+/** --------------FOOTER----------------- */
+
+.footer {
+    background-color:#2E2F42
+}
+
+.footer-text {
+    color:  #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50; 
+    letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.span {
+    color: #F4F4FD; 
+}
+
