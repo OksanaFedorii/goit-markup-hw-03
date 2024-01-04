@@ -160,9 +160,12 @@ img {
     font-style: normal;
 }
 
+.advantage-group {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .container-adv {
     display: flex;
-    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
     align-items: center;
 }
@@ -237,14 +240,23 @@ img {
     margin: -1px;
     padding: 0;
     overflow: hidden;
+    white-space: nowrap;
     clip: rect(0, 0, 0, 0);
+    clip-path: inset(0 0 0 0);
     border: 0;
+}
+
+.advantage {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /** --------------TEAM----------------- */
 
 .our-team {
     background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-title{
@@ -270,6 +282,11 @@ img {
 
 /** --------------Portfplio---------------- */
 
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #FFF;
+}
 
 .our-portfolio-title {
     margin-bottom: 72px;
