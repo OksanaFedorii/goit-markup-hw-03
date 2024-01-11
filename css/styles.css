@@ -110,7 +110,7 @@ img {
     justify-content: space-between;
 }
 
-.header-menu-item { 
+.header-menu-link { 
     padding-top: 24px;
     padding-bottom: 24px;
     display:inline-block;
@@ -121,7 +121,7 @@ img {
     gap: 40px;
 }
 
-.header-address-item {
+.header-address-link {
     padding-top: 24px;
     padding-bottom: 24px;
     display:inline-block;
@@ -130,7 +130,6 @@ img {
 .header-navigation {
     display: flex;
     flex-grow: 1;
-    display: flex;
     align-items: center;
 }
 
