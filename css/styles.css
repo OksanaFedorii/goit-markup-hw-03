@@ -246,7 +246,7 @@ img {
     border: 0;
 }
 
-.advantage {
+.container-advantage {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -255,6 +255,9 @@ img {
 
 .our-team {
     background: #F4F4FD;
+}
+
+.container-our-team {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -283,9 +286,12 @@ img {
 /** --------------Portfplio---------------- */
 
 .our-portfolio {
+    background-color: #FFF;
+}
+
+.container-our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #FFF;
 }
 
 .our-portfolio-title {
