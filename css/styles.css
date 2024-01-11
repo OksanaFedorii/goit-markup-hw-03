@@ -256,7 +256,7 @@ img {
     overflow: hidden;
 }
 
-.container-advantage {
+.advantage {
     padding: 120px 0;
 }
 
@@ -264,12 +264,10 @@ img {
 
 .our-team {
     background: #F4F4FD;
-}
-
-.container-our-team {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 
 .our-team-title{
     margin-bottom: 72px; 
@@ -296,9 +294,6 @@ img {
 
 .our-portfolio {
     background-color: #FFF;
-}
-
-.container-our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
